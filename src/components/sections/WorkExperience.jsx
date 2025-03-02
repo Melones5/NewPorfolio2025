@@ -54,13 +54,14 @@ const WorkExperience = () => {
           <a href='https://red-nube.netlify.app/' target='_blank' rel="noreferrer" className='inline-flex items-center rounded-md px-2 py-1 text-sm font-bold text-neutralText bg-gray-200 font-quicksand hover:bg-primary-mousse hover:text-white hover:font-bold w-auto'>Red nube</a>
         </div>
         <div>
-          <p className='pt-2 font-poppins text-pretty text-neutralText dark:text-darkText text-sm'>Colaboré activamente en el área de producción de la
-            Municipalidad de Concepción del Uruguay, trabajando
-            junto a compañeros en la recolección de información
-            sobre novedades referidas a proyectos que contribuyan al
-            desarrollo de los negocios locales. Además, desarrollé una
-            página web que centraliza esta información y permite a las
-            personas de la ciudad acceder a ella de forma fácil y sencilla.</p>
+          <div className='pt-2'>
+            <ul className='list-disc pl-4 font-poppins text-neutralText dark:text-darkText text-sm marker:text-primary-mousse'>
+              <li>Colaboración en el Área de Producción - Municipalidad de Concepción del Uruguay.</li>
+              <li>Recolección de información sobre proyectos para el desarrollo de negocios locales.</li>
+              <li>Trabajo en equipo para gestionar novedades del sector productivo.</li>
+              <li>Desarrollo de página web para centralizar y facilitar el acceso a la información para la comunidad.</li>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -86,15 +87,23 @@ const WorkExperience = () => {
         <a href='https://github.com/Melones5/taller-de-integracion' target='_blank' rel="noreferrer" className='inline-flex items-center rounded-md px-2 py-1 text-sm font-bold text-neutralText bg-gray-200 font-quicksand hover:bg-primary-mousse hover:text-white hover:font-bold w-auto'> https://github.com/Melones5/taller-de-integracion</a>
       </div>
       <div>
-        <p className='pt-2 font-poppins text-pretty text-neutralText dark:text-darkText text-sm'>Desarrollé una tienda online de alquiler de productos para motivos vacacionales, deportivos, de camping, de reparación hogareña (herramientas) entre otros.</p>
-        <p className='pt-2 font-poppins text-pretty text-neutralText dark:text-darkText text-sm'>Esta aplicación está desarrollada haciendo uso de diferentes
-          tecnologías, como por ejemplo del lado del back-end, se
-          utilizó nodejs con librerías tales como Express js, node-
-          cron, Nodemailer. En la parte del front-end se utilizó React,
-          Bootstrap, Antdesing y PrimeReact; y así como también se
-          hizo uso de una base de datos relacional en PostgreSQL; se
-          utilizó Firebase para hacer la autenticación de usuarios y
-          Mercadopago como método de pago para alquiler de productos.</p>
+        <div>
+          <div className='pt-2'>
+            <ul className='list-disc pl-4 font-poppins text-neutralText dark:text-darkText text-sm marker:text-primary-mousse'>
+              <li>Desarrollo de tienda online para alquiler de productos.</li>
+              <li>Alquiler de artículos para vacaciones, deportes, camping, reparación del hogar, entre otros.</li>
+              <li>Tecnologías utilizadas:
+                <ul className='list-disc pl-4 font-poppins text-neutralText dark:text-darkText text-sm marker:text-primary-mousse'>
+                  <li>Back-end: Node.js (Express.js, Node-cron, Nodemailer).</li>
+                  <li>Front-end: React, Bootstrap, Ant Design, PrimeReact.</li>
+                  <li>Base de datos: PostgreSQL (relacional).</li>
+                  <li>Autenticación: Firebase.</li>
+                  <li>Pasarela de pago: MercadoPago.</li>
+                </ul>
+              </li>              
+            </ul>
+          </div>
+        </div>       
       </div>
     </div>
   )
